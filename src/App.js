@@ -1,9 +1,10 @@
 import React from "react";
+import CounterPage from "./pages/CounterPage";
 
 const App = () => {
   return (
     <div>
-      <button className="btn btn-success">Click Here</button>
+      <CounterPage />
     </div>
   );
 };
