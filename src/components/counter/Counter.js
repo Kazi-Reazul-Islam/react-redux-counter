@@ -17,7 +17,7 @@ const Counter = () => {
           <button onClick={()=>{dispatch(increment())}} className="btn btn-success">Increase</button>
           <button onClick={()=>{dispatch(decrement())}} className="btn btn-danger mx-2" disabled={count === 0}>Decrease</button>
         </div>
-          <div className="my-4 forChecking">
+          <div className="my-4 dubleCheck">
               <input ref={myNumber} className="form-control " type="number" />
               <button onClick={()=>{dispatch(setCustom(myNumber.current.value))}} className="btn btn-danger my-4 ">Set Custom</button>
           </div>
